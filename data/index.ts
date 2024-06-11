@@ -1,7 +1,29 @@
+// import { Card } from "@/components/ui/CardStack";
+ 
+// export const CARDS: Card[] = [
+//   {
+//     id: 0,
+//     name: "DevNet Associate",
+//     imgUrl: "/cert/DevAss.jpg",
+   
+//   },
+//   {
+//     id: 1,
+//     name: "Emerging Technologies Workshop",
+//     imgUrl: "/cert/EmerTech.jpg",
+
+    
+//   },
+//   {
+//     id: 2,
+//     name: "Introduction to Networks",
+//     imgUrl: "/cert/IntroNet.jpg",
+//   },
+// ];
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -72,35 +94,36 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Media Meter Inc.",
+    des: "Understand how the media is talking about your brand",
+    img: "/proj/proj1.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", ],
+    link: "https://media-meter.com/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Salina App",
+    des: "Effortlessly transform your existing videos, podcasts, and webinars into a content marketing machine across channels and languages.",
+    img: "/proj/proj2.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/uploads/img/nodejs.svg"],
+    link: "https://salina.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    title: "Health Monitoring Dashboard",
+    des: "The Health Monitoring Dashboard is a user-friendly web application designed to track and visualize patient health data. This project focuses on providing an intuitive interface for healthcare professionals to monitor blood pressure trends, view lab results, and access diagnostic lists for patients. The application ensures that important patient data is easily accessible and presented in a clear and organized manner.",
+    img: "/proj/proj5.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "next.svg"],
     link: "/ui.aiimg.com",
+    className: "-mt-20",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
+    title: "Cathay Industrial & Mill Supply Inc.",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    img: "/proj/proj4.png",
+    iconLists: ["/uploads/img/wordpress.svg", "/uploads/img/elementor.png"],
+    link: "https://cathayindustrial.com/",
   },
 ];
 
@@ -213,14 +236,12 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    href: ""
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
+    href: "https://github.com/dev-zad"
   },
   {
     id: 3,
     img: "/link.svg",
+    href: "https://www.linkedin.com/in/zadrach/"
   },
 ];
+
