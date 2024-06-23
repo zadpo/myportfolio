@@ -10,7 +10,21 @@ import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { Skills } from "@/components/ui/Skills";
+import { ParallaxScroll } from "@/components/ui/parallax-scroll";
 
+const images = [
+  "/uploads/email/1.png",
+  "/uploads/email/2.png",
+  "/uploads/email/3.png",
+  "/uploads/email/4.png",
+  "/uploads/email/5.png",
+  "/uploads/email/6.png",
+  "/uploads/email/7.png",
+  "/uploads/email/8.png",
+  "/uploads/email/9.png",
+  "/uploads/email/10.png",
+
+];
 
 
 const Home = () => {
@@ -22,6 +36,7 @@ const Home = () => {
         <Grid />
         <RecentProjects />
         {/* <Clients /> */}
+        <ParallaxScroll images={images}/>
         <Skills />
         <Experience />
         <Approach />
