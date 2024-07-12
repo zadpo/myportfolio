@@ -11,7 +11,6 @@ import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { Skills } from "@/components/ui/Skills";
 import { ParallaxScroll } from "@/components/ui/parallax-scroll";
-import { CardDemo } from "@/components/ui/CardSkills";
 
 const images = [
   "/uploads/email/1.png",
@@ -37,7 +36,6 @@ const Home = () => {
         {/* <Clients /> */}
         <ParallaxScroll images={images} />
         <Skills />
-        <CardDemo />
         <Experience />
         <Approach />
         <Footer />
