@@ -11,6 +11,7 @@ import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { Skills } from "@/components/ui/Skills";
 import { ParallaxScroll } from "@/components/ui/parallax-scroll";
+import { CardDemo } from "@/components/ui/CardSkills";
 
 const images = [
   "/uploads/email/1.png",
@@ -23,9 +24,7 @@ const images = [
   "/uploads/email/8.png",
   "/uploads/email/9.png",
   "/uploads/email/10.png",
-
 ];
-
 
 const Home = () => {
   return (
@@ -36,8 +35,9 @@ const Home = () => {
         <Grid />
         <RecentProjects />
         {/* <Clients /> */}
-        <ParallaxScroll images={images}/>
+        <ParallaxScroll images={images} />
         <Skills />
+        <CardDemo />
         <Experience />
         <Approach />
         <Footer />

@@ -146,10 +146,15 @@ const config = {
             transform: "translate(calc(-50% - 0.5rem))",
           },
         },
+        move: {
+          "0%": { transform: "translateX(-200px)" },
+          "100%": { transform: "translateX(200px)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        move: "move 5s linear infinite",
         spotlight: "spotlight 2s ease .75s 1 forwards",
         shimmer: "shimmer 2s linear infinite",
         first: "moveVertical 30s ease infinite",
