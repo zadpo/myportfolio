@@ -34,7 +34,7 @@ const Home = () => {
         <Grid />
         <RecentProjects />
         {/* <Clients /> */}
-        <ParallaxScroll images={images} />
+        {/* <ParallaxScroll images={images} /> */}
         <Skills />
         <Experience />
         <Approach />

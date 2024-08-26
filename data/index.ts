@@ -1,18 +1,17 @@
 // import { Card } from "@/components/ui/CardStack";
- 
+
 // export const CARDS: Card[] = [
 //   {
 //     id: 0,
 //     name: "DevNet Associate",
 //     imgUrl: "/cert/DevAss.jpg",
-   
+
 //   },
 //   {
 //     id: 1,
 //     name: "Emerging Technologies Workshop",
 //     imgUrl: "/cert/EmerTech.jpg",
 
-    
 //   },
 //   {
 //     id: 2,
@@ -97,7 +96,7 @@ export const projects = [
     title: "Media Meter Inc.",
     des: "Understand how the media is talking about your brand",
     img: "/proj/proj1.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", ],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://media-meter.com/",
   },
   {
@@ -120,7 +119,7 @@ export const projects = [
   {
     id: 4,
     title: "Cathay Industrial & Mill Supply Inc.",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "INNOVATIVE SOLUTIONS FOR YOUR INDUSTRIAL NEEDS",
     img: "/proj/proj4.png",
     iconLists: ["/uploads/img/wordpress.svg", "/uploads/img/elementor.png"],
     link: "https://cathayindustrial.com/",
@@ -208,7 +207,7 @@ export const workExperience = [
     title: "Elixir Developer",
     // desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
     company: "Pragtechnologies Inc.",
-    date:"August 2023 - October 2023",
+    date: "August 2023 - October 2023",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
@@ -236,12 +235,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    href: "https://github.com/dev-zad"
+    href: "https://github.com/dev-zad",
   },
   {
     id: 3,
     img: "/link.svg",
-    href: "https://www.linkedin.com/in/zadrach/"
+    href: "https://www.linkedin.com/in/zadrach/",
   },
 ];
-
