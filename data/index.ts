@@ -125,12 +125,28 @@ export const projects = [
     link: "https://cathayindustrial.com/",
   },
   {
-    id: 4,
+    id: 5,
     title: "iluy.ai",
     des: "A multi-model AI chatbot",
     img: "/proj/proj7.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "next.svg"],
     link: "https://iluy.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "Corebride Solutions",
+    des: "Bridging Vision Building Success",
+    img: "/proj/proj9.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "next.svg"],
+    link: "https://www.corebridgesolutions.com/",
+  },
+  {
+    id: 7,
+    title: "Move To South Florida",
+    des: "",
+    img: "/proj/proj10.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "next.svg"],
+    link: "https://movetosouthflorida.com/",
   },
 ];
 
