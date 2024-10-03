@@ -12,14 +12,8 @@ const Hero = () => {
        *  Link: https://ui.aceternity.com/components/spotlight
        */}
       <div>
-        <Spotlight
-          className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
-          fill="white"
-        />
-        <Spotlight
-          className="h-[80vh] w-[50vw] top-10 left-full"
-          fill="purple"
-        />
+        <Spotlight className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen" fill="white" />
+        <Spotlight className="h-[80vh] w-[50vw] top-10 left-full" fill="purple" />
         <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
       </div>
 
@@ -57,15 +51,12 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Zadrach, a Front-end Developer based in Philippines.
+            Hi! I&apos;m Zadrach, a <span className="text-purple font-semibold">Web Developer</span> based in
+            Philippines.
           </p>
 
           <a href="#about">
-            <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
+            <MagicButton title="Show my work" icon={<FaLocationArrow />} position="right" />
           </a>
         </div>
       </div>

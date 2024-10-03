@@ -109,11 +109,11 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Health Monitoring Dashboard",
-    des: "The Health Monitoring Dashboard is a user-friendly web application designed to track and visualize patient health data. This project focuses on providing an intuitive interface for healthcare professionals to monitor blood pressure trends, view lab results, and access diagnostic lists for patients. The application ensures that important patient data is easily accessible and presented in a clear and organized manner.",
-    img: "/proj/proj5.png",
+    title: "Ayuda Lesiones",
+    des: "Ayuda Lesiones",
+    img: "/proj/proj6.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "next.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://ayudalesiones.com/",
     className: "-mt-20",
   },
   {
@@ -123,6 +123,14 @@ export const projects = [
     img: "/proj/proj4.png",
     iconLists: ["/uploads/img/wordpress.svg", "/uploads/img/elementor.png"],
     link: "https://cathayindustrial.com/",
+  },
+  {
+    id: 4,
+    title: "iluy.ai",
+    des: "A multi-model AI chatbot",
+    img: "/proj/proj7.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "next.svg"],
+    link: "https://iluy.vercel.app/",
   },
 ];
 
@@ -225,6 +233,15 @@ export const workExperience = [
     title: "Front-end Developer",
     company: "Corebridge Solutions",
     date: "February 2024 - Present",
+    // desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+  },
+  {
+    id: 4,
+    title: "Web Developer",
+    company: "Duo Developements",
+    date: "July 2024 - September 2024",
     // desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
