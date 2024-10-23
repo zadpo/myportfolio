@@ -148,6 +148,14 @@ export const projects = [
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "next.svg"],
     link: "https://movetosouthflorida.com/",
   },
+  {
+    id: 8,
+    title: "Goodmood",
+    des: "",
+    img: "/proj/proj11.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "next.svg"],
+    link: "https://website-mockup-store.vercel.app/",
+  },
 ];
 
 export const testimonials = [
