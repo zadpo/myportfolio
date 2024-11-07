@@ -276,7 +276,7 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    href: "https://github.com/dev-zad",
+    href: "https://github.com/zadpo",
   },
   {
     id: 3,
