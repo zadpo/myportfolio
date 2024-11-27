@@ -5,26 +5,26 @@ import { Button } from "./MovingBorders";
 
 export function Skills() {
   return (
-    <div className=" bg-transparent py-40">
+    <section className="skills-section py-40 bg-transparent">
       <div className="container mx-auto relative z-10">
-        <h1 className="heading py-4 gap-2">
-          Tech
-          <span className="text-purple">Stack</span>
+        <h1 className="heading text-center py-4 gap-2">
+          Tech <span className="text-purple">Stack</span>
         </h1>
-        <div className="flex justify-center items-center gap-6 flex-wrap px-2 lg:px-20">
-          {skillsData.map((skill, index) => (
-            <Tooltip key={index} title={skill.code} placement="top">
+        <div className="skills-grid flex justify-center items-center gap-6 flex-wrap px-4 lg:px-20">
+          {skillsData.map(({ code, icon, name }, index) => (
+            <Tooltip key={index} title={code} placement="top" overlayClassName="tooltip">
               <Button
-                borderRadius="100%"
-                className="bg-white w-[100px] h-[100px] dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800 justify-center items-center flex flex-col  transform transition-transform hover:scale-105"
+                borderRadius="50%"
+                aria-label={`${name} skill`}
+                className="skill-button bg-white w-[100px] h-[100px] dark:bg-slate-900 text-black dark:text-white border border-neutral-200 dark:border-slate-800 flex justify-center items-center flex-col transform transition-transform hover:scale-105 shadow-lg hover:shadow-2xl"
               >
-                <img className="w-10 h-10" src={skill.icon} alt={`${skill.name} Icon`} />
-                <p className="text-[12px]  mt-1 font-google-sans">{skill.name}</p>
+                <img className="skill-icon w-10 h-10" src={icon} alt={`${name} Icon`} />
+                <p className="skill-name text-[12px] mt-1 font-google-sans">{name}</p>
               </Button>
             </Tooltip>
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
