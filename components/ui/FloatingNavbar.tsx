@@ -34,7 +34,7 @@ export function FloatingNav({
   useEffect(() => {
     let timeoutId: NodeJS.Timeout;
     if (visible) {
-      timeoutId = setTimeout(() => setVisible(false), 1000);
+      timeoutId = setTimeout(() => setVisible(false), 5000);
     }
     return () => clearTimeout(timeoutId);
   }, [visible]);
