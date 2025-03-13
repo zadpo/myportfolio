@@ -156,6 +156,40 @@ export const projects = [
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "next.svg"],
     link: "https://website-mockup-store.vercel.app/",
   },
+  {
+    id: 9,
+    title: "AdVault",
+    des: "",
+    img: "/proj/proj12.png",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/next.svg",
+      "/mongodb.svg",
+      // "/nodejs.svg",
+      // "/express.svg",
+      // "/react.svg",
+      // "/aws.svg",
+    ],
+    link: "https://advault-fe-production-0186.up.railway.app/",
+  },
+  {
+    id: 10,
+    title: "Drivers 1st",
+    des: "",
+    img: "/proj/proj13.png",
+    iconLists: ["/uploads/img/wordpress.svg", "/uploads/img/elementor.png"],
+    link: "https://drivers1st.com/",
+  },
+  {
+    id: 11,
+    title: "Drive Board",
+    des: "",
+    img: "/proj/proj14.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "next.svg"],
+    link: "https://drive-board-fe-ecru.vercel.app/",
+  },
 ];
 
 export const testimonials = [
